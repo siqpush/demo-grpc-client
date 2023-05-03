@@ -2,10 +2,8 @@ module github.com/siqpush/demo-grpc-client
 
 go 1.20
 
-replace github.com/siqpush/demo-grpc-jg => /Users/joelgilmore/Code/go/source/demo-grpc-jg
-
 require (
-	github.com/siqpush/demo-grpc-jg v0.0.0-00010101000000-000000000000
+	github.com/siqpush/demo-grpc-jg v0.0.0-20230503222448-8ca73cab5652
 	google.golang.org/grpc v1.54.0
 )
 
